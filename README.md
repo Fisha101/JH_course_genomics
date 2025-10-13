@@ -8,6 +8,10 @@ This repository contains my assignments and mini-projects for the *Python for Ge
 
 These scripts demonstrate fundamental bioinformatics techniques written in Python — such as calculating GC content, manipulating DNA sequences, and basic genomic data analysis.
 
+This script scans a DNA sequence to identify all potential donor splice site candidates marked by the dinucleotide 'gt'.
+It uses Python’s .find() method inside a loop to locate every occurrence and prints their positions.
+A flag variable tracks whether any splice sites are found, and if none are detected, the program reports that no donor splice site candidates are present.
+
 All files are stored in the **main** branch and can be run directly using Python 3.  
 
 ---
@@ -16,3 +20,7 @@ All files are stored in the **main** branch and can be run directly using Python
 
 - [`gc_content_calculator.py`](gc_content_calculator.py):  
   Calculates the percentage of guanine (G) and cytosine (C) nucleotides in a DNA sequence.
+- [`find_donorsplicesite.py`](find_donorsplicesite.py):
+  Finds all 'gt' donor splice site candidates in a DNA sequence and prints their positions.
+
+  
