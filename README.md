@@ -22,5 +22,7 @@ All files are stored in the **main** branch and can be run directly using Python
   Calculates the percentage of guanine (G) and cytosine (C) nucleotides in a DNA sequence.
 - [`find_donorsplicesite.py`](find_donorsplicesite.py):
   Finds all 'gt' donor splice site candidates in a DNA sequence and prints their positions.
+- [`gc_function.py`](gc_function.py):
+  Defines a function that computes GC content (%) of a DNA sequence, ignoring ambiguous bases (N).
 
   
