@@ -24,5 +24,7 @@ All files are stored in the **main** branch and can be run directly using Python
   Finds all 'gt' donor splice site candidates in a DNA sequence and prints their positions.
 - [`gc_function.py`](gc_function.py):
   Defines a function that computes GC content (%) of a DNA sequence, ignoring ambiguous bases (N).
+- [`has_stop_codon.py`](has_stop_codon.py):
+  Checks if a DNA sequence contains an in-frame stop codon (TAA, TAG, or TGA) in a user-specified or default reading frame.
 
   
