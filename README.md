@@ -26,7 +26,10 @@ All files are stored in the **main** branch and can be run directly using Python
   Defines a function that computes GC content (%) of a DNA sequence, ignoring ambiguous bases (N).
 - [`has_stop_codon.py`](has_stop_codon.py):
   Checks if a DNA sequence contains an in-frame stop codon (TAA, TAG, or TGA) in a user-specified or default reading frame.
-- [` reverse_complement.py`]( reverse_complement.py):
-  Generates the reverse complement of a DNA sequence by reversing and complementing each base (A↔T, C↔G). 
+- [`reverse_complement.py`](reverse_complement.py):
+  Generates the reverse complement of a DNA sequence by reversing and complementing each base (A↔T, C↔G).
+- [`dnautil.py`](dnautil.py):
+  A Python module that provides functions for DNA sequence analysis, including GC content calculation and detection of in-frame stop codons.
+    
 
   
