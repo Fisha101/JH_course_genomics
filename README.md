@@ -30,6 +30,10 @@ All files are stored in the **main** branch and can be run directly using Python
   Generates the reverse complement of a DNA sequence by reversing and complementing each base (A↔T, C↔G).
 - [`dnautil.py`](dnautil.py):
   A Python module that provides functions for DNA sequence analysis, including GC content calculation and detection of in-frame stop codons.
+- [`my_seq.fasta`](my_seq.fasta):
+  A FASTA file containing multiple DNA sequences, each labeled by a header line and stored for parsing and analysis.
+- [`fasta_dictionary.py`](fasta_dictionary.py) & [`fasta_dictionary_2.py`](fasta_dictionary_2.py):
+  Parses a FASTA file and builds a dictionary mapping sequence IDs to their complete DNA sequences; the second version also prints each sequence with its name.
     
 
   
